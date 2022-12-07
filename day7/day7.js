@@ -15,7 +15,7 @@ console.log('day7new');
 let rawData = '';
 
 try {
-    rawData = fs.readFileSync('input', 'utf8');
+    rawData = fs.readFileSync('test', 'utf8');
 } catch (err) {
     console.error(err);
 }
@@ -96,7 +96,15 @@ a1.forEach(item => {
     }
 });
 
-// actually need to do a last loop from treePos but this console.log show that it is less that requiredMore space
-// console.log(treePos);
+while (treePos.length > 1) {
+    const prevPos = treePos.pop();
+    if (prevPos.XSummary > requiredMore) {
+        answerArray.push(prevPos.XSummary);
+    }
+}
 
-console.log('answer part2', answerArray.sort()[0]);
+// actually need to do a last loop from treePos but this console.log show that it is less that requiredMore space
+console.log(treePos);
+
+console.log(answerArray);
+console.log('answer part2', answerArray.sort((a, b) => a - b)[0]);
