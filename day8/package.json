@@ -1,0 +1,12 @@
+{
+  "name": "day8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day8.js",
+  "scripts": {
+    "start": "node day8.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
