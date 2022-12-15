@@ -1,0 +1,12 @@
+{
+  "name": "day15",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day15.js",
+  "scripts": {
+    "start": "node day15.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
