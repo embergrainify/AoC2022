@@ -1,0 +1,12 @@
+{
+  "name": "day16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day16.js",
+  "scripts": {
+    "start": "node day16.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

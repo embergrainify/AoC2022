@@ -1,0 +1,12 @@
+{
+  "name": "day21",
+  "version": "1.0.0",
+  "description": "",
+  "main": "day21.js",
+  "scripts": {
+    "start": "node day21.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
